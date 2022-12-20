@@ -2,20 +2,27 @@ import java.util.Scanner;
 
 public class OPD {
     public static void main(String[] args) {
-    Scanner in = new Scanner (System.in);
-    System.out.println("Бюджет проэкта:");
-    float a = in.nextInt();
-    System.out.println("Запланированный срок сдачи в мес.:");
-    float b = in.nextInt();
-    System.out.println("Расходы на Сегодня:");
-    float c = in.nextInt();
-
-    float x = a / b;
-    float z = (c * x) / 30;
-    System.out.println("Задержка срока: " + z);
-
-    float k = (z * x);
-    System.out.println("Перерасход бюджета: " + k);
+        Scanner in = new Scanner(System.in);
+        double AG, AD, ID, AH, EH, GH;
+        System.out.println("Плановое время завершения проекта(мес.): ");
+        AG = in.nextInt();
+        System.out.println("Время точки сегодня (мес.): ");
+        AD = in.nextInt();
+        System.out.println("Процент завершения проекта на сегодня: ");
+        ID = in.nextInt();
+        EH=100;
+        AH=AD*EH/ID;
+        GH=AH-AG;
+        double AB, DF, HO, CB;
+        System.out.println("Потрачено денег на сегодня:");
+        DF=in.nextInt() ;
+        System.out.println("Планируемый бюджет: ");
+        AB=in.nextInt() ;
+        HO=AH*DF/AD;
+        CB=(int)Math.ceil(HO-AB);
+        System.out.println("Задержка завершения проекта(в мес.) составит: " + GH);
+        System.out.println("Перерасход бюджета(в у.е.): " + CB);
     }
 }
+
 
