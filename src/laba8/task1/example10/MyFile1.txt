@@ -1,0 +1,7 @@
+ready
+steady
+go!
+rock the microphone
+this is first line to check
+this is second line to check
+end

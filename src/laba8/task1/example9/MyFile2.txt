@@ -1,0 +1,6 @@
+1: ready
+2: steady
+3: go!
+4: this is first line to check
+5: this is second line to check
+6: end

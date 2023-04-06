@@ -1,0 +1,7 @@
+1: ready
+2: steady
+3: go!
+4: rock the microphone
+5: this is first line to check
+6: this is second line to check
+7: end
