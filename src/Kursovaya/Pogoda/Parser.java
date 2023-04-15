@@ -1,4 +1,4 @@
-package Pogoda;
+package Kursovaya.Pogoda;
 
 // парсинг страницы сайта через библиотеку jsoup
 
