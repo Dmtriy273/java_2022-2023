@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<motobikes>
+    <motobike>
+        <model>motobaike</model>
+        <engine>650</engine>
+        <year>2002</year>
+    </motobike>
+    <motobike>
+        <model>Kawasaki KLE400</model>
+        <engine>400</engine>
+        <year>2010</year>
+    </motobike>
+</motobikes>
